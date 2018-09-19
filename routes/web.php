@@ -15,8 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/anamnesis', 'ControllerAnamnesis@personales');
+
 Route::get('/habitos', function () {
     return view('habitos');
+});
+
+Route::get('/personales', function () {
+    return view('personales');
+});
+
+Route::get('/familiares', function () {
+    return view('familiares');
 });
 
 Route::get('/otro', function () {
