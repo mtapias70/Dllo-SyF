@@ -11,6 +11,8 @@
 |
 */
 
+
+/* debo aprender a hacer grupos de rutas y proteger sus accesos. */
 Route::get('/', function () {
     return view('welcome');
 });
